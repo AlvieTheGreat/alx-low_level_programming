@@ -18,9 +18,14 @@ int main(void)
 	{
 		putchar('0' + n);
 	if (n < 9)
+	{
 		putchar(',');
 	putchar(' ');
 	}
+	else
+	{
 	putchar('\n');
+	}
+	}
 	return (0);
 }
