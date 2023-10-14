@@ -8,3 +8,4 @@ task 6 - This program that prints all single digit numbers of base 10 starting f
 task 7 - This program that prints the lowercase alphabet in reverse, followed by a new line.	
 task 8 - This program that prints all the numbers of base 16 in lowercase, followed by a new line.
 task 9 - This  program that prints all possible combinations of single-digit numbers.Numbers must be separated by ,, followed by a space.Numbers should be printed in ascending order.
+task 10 - This program that prints all possible different combinations of two digits.Numbers must be separated by ,, followed by a space. The two digits must be different.01 and 10 are considered the same combination of the two digits 0 and 1. Print only the smallest combination of two digits. Numbers should be printed in ascending order, with two digits.
