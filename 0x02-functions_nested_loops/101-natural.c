@@ -8,16 +8,18 @@
 
 int main(void)
 {
-	int x;
+	int sum = 0;
 	int y = 0;
 
-	for (int x = 0; x < 1024; x++)
+	while (y < 1024)
 	{
-		if (x % 3 == 0 || x % 5 == 0)
+		if (y % 3 == 0 || y % 5 == 0)
 		{
-			y += x;
+			sum += y;
 		}
+		y++;
 	}
-	printf("%d\n", y);
+	printf("%d\n", sum);
 	return (0);
+
 }
