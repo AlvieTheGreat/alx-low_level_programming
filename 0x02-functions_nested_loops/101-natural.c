@@ -8,15 +8,16 @@
 
 int main(void)
 {
-	int sum = 0;
+	int x;
+	int y = 0;
 
-	for (int i = 0; i < 1024; i++)
+	for (int x = 0; x < 1024; x++)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
+		if (x % 3 == 0 || x % 5 == 0)
 		{
-			sum += i;
+			y += x;
 		}
 	}
-	printf("%d\n", sum);
+	printf("%d\n", y);
 	return (0);
 }
