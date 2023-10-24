@@ -21,5 +21,5 @@ char *_strchr(char *s, char c)
 		}
 		s++;
 	}
-	return NULL; /* returns NULL if c is not found in string*/
+	return (NULL); /* returns NULL if c is not found in string*/
 }
