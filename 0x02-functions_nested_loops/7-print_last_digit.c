@@ -1,4 +1,5 @@
 #include "main.h"
+#include "6-abs.c"
 
 /**
   * print_last_digit - prints last digit of a number.
@@ -10,8 +11,7 @@
 
 int print_last_digit(int n)
 {
-	int last_digit = n % 10; /* calculates last digit using the modulo operator*/
 
-	_putchar(last_digit + '0'); /* prints the last digit*/
-	return (last_digit); /* returns value of last digit*/
+	_putchar('0' + _abs(n % 10)); /* prints the last digit*/
+	return (_abs(n % 10)); /* returns value of last digit*/
 }
