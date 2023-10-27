@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * check_palindrome - Recursive helper function to check if a string is palindrome.
+  * check_palindrome - Recursive helper to check if a string is palindrome.
   * @s: the string to check.
   * @start: the starting index.
   * @end: the ending index.
